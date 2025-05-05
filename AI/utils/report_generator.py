@@ -52,7 +52,6 @@ def generate_html_report(sections: list[tuple[str, str]], output_file: str = "re
     </style>
 </head>
 <body>
-    <h1>📊 Project Review Report</h1>
     {content}
 </body>
 </html>"""
