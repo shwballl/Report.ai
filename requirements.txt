@@ -1,0 +1,7 @@
+azure-ai-inference
+azure-core
+colorlog
+dotenv
+python-dotenv
+requests
+logging
