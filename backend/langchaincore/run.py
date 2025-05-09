@@ -1,12 +1,12 @@
 import asyncio
 import logging
 
-from AI.utils.project_loader import load_and_split_project_files
-from AI.utils.project_analyzer import analyze_documents
-from AI.utils.report_generator import generate_html_report
-from AI.utils.utils import clone_repo, remove_directory
+from langchaincore.utils.project_loader import load_and_split_project_files
+from langchaincore.utils.project_analyzer import analyze_documents
+from langchaincore.utils.report_generator import generate_html_report
+from langchaincore.utils.utils import clone_repo, remove_directory
 
-from AI.loggers import LogLevels, configure_logging
+from langchaincore.loggers import LogLevels, configure_logging
 
 async def run_pipeline(repo_url, analysis_type=None):
     try:

@@ -1,0 +1,3 @@
+2025-05-09 20:58:37,271 - INFO - Cloning repository: https://github.com/shwballl/Streamlit-Crypto-Dashboard
+2025-05-09 20:58:44,945 - INFO -  + Analyzing project with focus on security...
+2025-05-09 20:58:44,950 - ERROR -  + Error in pipeline: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
